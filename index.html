@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Joshua Sabalande</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header class="top">
+      <a class="brand" href="index.html">Portfolio</a>
+      <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="hero">
+        <div class="hero-text">
+          <p class="code">hello, world_</p>
+          <h1>Hi, I'm <span class="grad">Joshua Sabalande</span></h1>
+          <p class="lead">
+            I build clean, friendly websites and care about how they look and feel. Take a look
+            around.
+          </p>
+          <div class="btns">
+            <a class="btn primary" href="projects.html">View projects</a>
+            <a class="btn" href="contact.html">Contact me</a>
+          </div>
+        </div>
+        <div class="photo">
+          <img
+            src="images/graduation.jpg"
+            alt="Joshua Sabalande in graduation attire"
+            onerror="this.style.display='none'"
+          >
+          <span>JS</span>
+        </div>
+      </section>
+
+      <section class="tiles">
+        <a class="tile" href="about.html"><b>About</b><i>Who I am</i></a>
+        <a class="tile" href="skills.html"><b>Skills</b><i>What I use</i></a>
+        <a class="tile" href="education.html"><b>Education</b><i>Where I studied</i></a>
+        <a class="tile" href="projects.html"><b>Projects</b><i>What I made</i></a>
+        <a class="tile" href="contact.html"><b>Contact</b><i>Say hello</i></a>
+      </section>
+
+      <div class="pager">
+        <span></span>
+        <a class="btn primary" href="about.html">About →</a>
+      </div>
+    </main>
+
+    <footer>
+      <div class="flinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="flinks">
+        <a href="mailto:sabalandejoshua@gmail.com">sabalandejoshua@gmail.com</a>
+        <a href="tel:09073225325">09073225325</a>
+      </div>
+      <p>© 2026 Joshua Sabalande</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
